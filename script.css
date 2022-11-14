@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.game {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.color {
+    width: 30vw;
+    height: 30vh;
+    background-color: #ccc;
+}
+
+section.play>input,
+section.play>input+button {
+    display: block;
+    margin: 20px auto;
+    font-size: 30px;
+    padding: 10px 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.panel {
+    text-transform: uppercase;
+}
+
+
+.panel,
+.score {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px auto;
+}
