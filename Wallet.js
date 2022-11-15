@@ -4,6 +4,11 @@ class Wallet {
         let _money = money;
         this.getMoney = () => _money;
 
+        this.checkCanPlay = value => {
+            if (_money >= value) return true;
+            return false;
+        }
+
         this.changeMoney = (value, type = "+") => {
             if (value < 1) {
                 throw new Error("za mała wartość")
