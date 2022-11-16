@@ -10,7 +10,7 @@ class Wallet {
         }
 
         this.changeMoney = (value, type = "+") => {
-            if (value < 1) {
+            if (value < 0) {
                 throw new Error("za mała wartość")
             } else if (typeof value === 'number' && !isNaN(value)) {
                 if (type === "+") {
@@ -24,5 +24,3 @@ class Wallet {
     }
 
 }
-
-const wallet = new Wallet(200)

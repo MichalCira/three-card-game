@@ -21,7 +21,8 @@ h1 {
 div.color {
     width: 30vw;
     height: 30vh;
-    background-color: #ccc;
+    background-color: #fff;
+    border: 2px solid black;
 }
 
 section.play>input,

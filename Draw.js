@@ -14,4 +14,3 @@ class Drow {
         return colors;
     }
 }
-const drow = new Drow()
